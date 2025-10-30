@@ -2,6 +2,7 @@
 <html lang="fr">
   <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Page d'exercice OpenClassrooms">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Booki</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,7 +13,7 @@
   </head>
 
   <body>
-    <div class="body-container">
+    <div class="main-container">
 <!-- Header & Menu -->
 
       <header>
@@ -29,7 +30,7 @@
         </div>
       </header>
 
-      <main class="main-container">
+      <main>
 <!-- Titre / Recherche / Filtre / Infos -->
 
         <div class="search-and-filters">
@@ -43,8 +44,8 @@
               <label for="search-input">
                 <i class="fa-solid fa-location-dot"></i>
               </label>
-              <input type="search" id="search-input" name="search-input" value="Marseille, France">
-              <button class="search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i><span class="search-btn-text">Rechercher</span></button>
+              <input type="search" aria-label="search" id="search-input" name="search-input" value="Marseille, France">
+              <button class="search-btn" type="submit" aria-label="search"><i class="fa-solid fa-magnifying-glass"></i><span class="search-btn-text">Rechercher</span></button>
             </form>
           </search>
 
@@ -87,11 +88,11 @@
               <a href="#">
                 <article class="card">
                   <img src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
-                  <div class="card-content">
+                  <div class="card-content"> 
                     <div class="card-txt">
-                      <h3 class="card-title">Hôtel du port</h3>
-                      <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
-                    </div>
+                        <h3 class="card-title">Hôtel du port</h3>
+                        <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
+                    </div> 
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
@@ -108,8 +109,8 @@
                   <img src="./images/hebergements/febrian-zakaria.jpg" alt="Image de la chambre d'hôtel montrant un lit">
                   <div class="card-content">
                     <div class="card-txt">
-                      <h3 class="card-title">Hôtel Chez Amina</h3>
-                      <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
+                        <h3 class="card-title">Hôtel Chez Amina</h3>
+                        <p class="card-subtitle">Nuit à partir de 96<span class="euro">€</span></p>
                     </div>
                     <div class="card-rating">
                       <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
