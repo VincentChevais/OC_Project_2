@@ -1,32 +1,100 @@
 /*************** Reset *****************/
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
     list-style: none;
 }
 
 /**************** General ***********/
 
 :root {
-  --main-color: #0065fc;
-  --main-bg-color: #f2f2f2;
-  --filter-bg-color: #deebff;
-  --filter-border-color: #d9d9d9;
+    --main-color: #0065fc;
+    --main-bg-color: #f2f2f2;
+    --filter-bg-color: #deebff;
+    --filter-border-color: #d9d9d9;
 }
 
 * {
@@ -72,7 +140,7 @@ a {
 .card {
     background-color: white;
     border-radius: 20px;
-    padding: 5px; 
+    padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
 }
 
@@ -147,7 +215,7 @@ a {
 }
 
 .search-bar .fa-location-dot {
-    color: #000; 
+    color: #000;
     font-size: 18px;
 }
 
@@ -220,6 +288,7 @@ a {
     align-items: center;
     gap: 10px;
 }
+
 .infos .fa-info {
     font-size: 10px;
     border: 1px solid var(--filter-border-color);
@@ -266,7 +335,7 @@ a {
     display: flex;
     flex-direction: column;
     gap: 8px;
-    padding: 4px 10px 10px 15px;  
+    padding: 4px 10px 10px 15px;
 }
 
 .hebergements-cards .card-txt {
@@ -295,7 +364,7 @@ a {
 }
 
 .populaires-cards {
-    display:flex;
+    display: flex;
     flex-direction: column;
     padding-block: 30px 0px;
     gap: 30px;
@@ -345,11 +414,11 @@ a {
     display: flex;
     flex-direction: column;
     padding: 0;
-    height:100%;
+    height: 100%;
 }
 
 .activity-cards .card-title {
-    padding: 19px 20px;  
+    padding: 19px 20px;
 }
 
 .activity-cards img {
@@ -373,7 +442,7 @@ a {
 
 .footer-nav div {
     padding: 20px 0px 0px 20px;
-    width:33%
+    width: 33%
 }
 
 .footer-list li {
@@ -388,7 +457,7 @@ a {
 @media (max-width: 1024px) {
 
     .filters {
-        display:block;   
+        display: block;
     }
 
     .filters .title-filter {
@@ -443,7 +512,7 @@ a {
 
     .logo {
         display: flex;
-        justify-content: center;   
+        justify-content: center;
     }
 
     .nav-list {
@@ -491,11 +560,11 @@ a {
     }
 
     /* Filtres */
-    
+
     .container-filter-btn {
         row-gap: 20px;
         column-gap: 10px;
-        justify-content: space-between;   
+        justify-content: space-between;
     }
 
     .filter-btn {
@@ -561,7 +630,7 @@ a {
     /* Pied de page */
 
     .footer-nav {
-        flex-direction:column;
+        flex-direction: column;
     }
 
     .footer-nav div {
